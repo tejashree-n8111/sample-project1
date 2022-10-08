@@ -1,0 +1,6 @@
+{
+    "/api": {
+        "target": "https://feeds.feedburner.com",
+        "secure": false
+    }
+}
