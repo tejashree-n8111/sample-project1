@@ -13,6 +13,6 @@ export class NewsService {
 
   getNews() {
     return this.http
-      .get("http://feeds.feedburner.com/ndtvnews-top-stories", { responseType: "text" });
+      .get("https://feeds.feedburner.com/ndtvnews-top-stories", { responseType: "text" });
   }
 }
